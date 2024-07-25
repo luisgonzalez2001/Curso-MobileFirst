@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a class="header--button" href="">Conoce Nuestros Planes <span></span> </a>
+            <a class="header--button" href="#cards">Conoce Nuestros Planes <span></span> </a>
         </div>
     </header>
     <main>
@@ -55,7 +56,7 @@
                         </p>
                     </div>
                 </div>
-                <div style="display: none;" class="main-comissions-table" id="tableComissions">
+                <div class="main-comissions-table" id="tableComissions">
                     <p class="comissions-table--title">Monedas</p>
                     <div class="comissions-table--container">
                         <table>
@@ -118,7 +119,7 @@
         <section class="bitcoin-img-container">
             <h2>Conócelo hoy</h2>
         </section>
-        <section class="main-plans-container">
+        <section id="cards" class="main-plans-container">
             <div class="plans-container--title">
                 <h2>Escoge el plan que mejor se ajuste a ti.</h2>
                 <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
@@ -154,6 +155,17 @@
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="footer-left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section>
+            <img src="./assets/imgs/logo_footer.svg" alt="Logo de batatabit 2020">
+        </section>
+    </footer>
 </body>
 </html>

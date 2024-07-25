@@ -1,0 +1,24 @@
+.main-table-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.main-table-container .main-comissions-table {
+    display: inline-block;
+}
+
+.arrow-right, .arrow-left {
+    display: none;
+}
+
+.product-cards--container {
+    width: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
