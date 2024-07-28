@@ -483,12 +483,6 @@ main {
     background-color: var(--bitcoin-orange);
 }
 
-.plan-info-container {
-    /* width: 85%;
-    height: auto;
-    margin: 0 auto; */
-}
-
 .plan-info-container .plan-card--title {
     padding-top: 30px;
     font-size: 1.4rem;
